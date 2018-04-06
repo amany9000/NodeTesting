@@ -1,0 +1,24 @@
+{
+  "name": "nodetesting",
+  "version": "1.0.0",
+  "description": "A descriptive repository with several different ways of testing in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "nodemonTest" : "nodemon --exec \" npm test \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amany9000/NodeTesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amany9000/NodeTesting/issues"
+  },
+  "homepage": "https://github.com/amany9000/NodeTesting#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.0.5"
+  }
+}
