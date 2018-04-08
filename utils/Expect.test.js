@@ -1,10 +1,10 @@
 var expect = require("expect");
 var utils = require("./utils")
 
-it("Should convert the string to upper case",()=>{
-	var result = utils.upper("Luke I'm your Father!");
+it("Should convert the string to lower case",()=>{
+	var result = utils.lower("Luke I'm your Father!");
 	expect(result).toBeDefined();
-	expect(result).toBe("LUKE I'M YOUR FATHER!");
+	expect(result).toBe("luke i'm your father!");
 });
 
 it("Should divide the name into firstname and lastname",()=>{
