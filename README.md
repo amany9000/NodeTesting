@@ -5,6 +5,7 @@ It uses the expect , mocha and supertest npm modeules.
 How to use :-
 === 
 Clone the repository.
+cd into it.
 Run - $npm install
       $npm test 
 
