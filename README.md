@@ -6,7 +6,7 @@ How to use :-
 === 
 Clone the repository.
 cd into it.
-Run - $npm install
-      $npm test 
-
+*Run - 
+	*$npm install
+	*$npm test 
 Make changes in the callback of it() to test server.js and utils.js.       
